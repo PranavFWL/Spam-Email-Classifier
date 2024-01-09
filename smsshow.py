@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1kvhHPsc3iFnmeQoj5Tx4TUOWGWXfHNZv
 """
 
-!pip install streamlit
 
 import streamlit as st
 import pickle as pic
@@ -64,8 +63,6 @@ if result == 1:
 else:
   st.header('Genuine Message :)')
 
-!streamlit run SpamEmail.py
 
 st.title('Nightmare of SPams!')
 
-!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py
